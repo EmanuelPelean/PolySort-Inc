@@ -26,9 +26,11 @@ public class EnemyMovement : MonoBehaviour {
 
                 // rotate enemy to face forward direction
                 Vector3 direction = waypoint.transform.position - transform.position;
-                Quaternion lookRotation = Quaternion.LookRotation(direction);
-                float step = 300f * Time.deltaTime;
-                transform.rotation = Quaternion.RotateTowards(transform.rotation, lookRotation, step);
+                if (direction != new Vector3(0,0,0)) {
+                     Quaternion lookRotation = Quaternion.LookRotation(direction);
+                     float step = 300f * Time.deltaTime;
+                     transform.rotation = Quaternion.RotateTowards(transform.rotation, lookRotation, step);
+                }
 
                 yield return null;
             }

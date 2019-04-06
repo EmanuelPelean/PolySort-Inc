@@ -57,6 +57,7 @@
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\Pathfinder.cs" />
+     <Compile Include="Assets\Scripts\SortingManger.cs" />
      <Compile Include="Assets\Scripts\Waypoint.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/Users/epelean/Desktop/Misc/PolySort/PolySort Inc/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
