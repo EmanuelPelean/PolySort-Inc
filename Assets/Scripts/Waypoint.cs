@@ -50,18 +50,18 @@ public class Waypoint : MonoBehaviour {
         //setExploredColor(); 
 	}
 
-    void OnMouseOver()
-    {
-        // if (Input.GetMouseButtonDown(0))
-        // {
-        //     if (isPlaceable)
-        //     {
-        //         FindObjectOfType<TowerFactory>().AddTower(this);
-        //     }
-        //     else
-        //     {
-        //         print("Can't place tower here.");
-        //     }
-        // }
-    }
+    // void OnMouseOver()
+    // {
+    //     // if (Input.GetMouseButtonDown(0))
+    //     // {
+    //     //     if (isPlaceable)
+    //     //     {
+    //     //         FindObjectOfType<TowerFactory>().AddTower(this);
+    //     //     }
+    //     //     else
+    //     //     {
+    //     //         print("Can't place tower here.");
+    //     //     }
+    //     // }
+    // }
 }
